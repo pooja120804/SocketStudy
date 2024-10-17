@@ -74,8 +74,9 @@ s.connect(('localhost',8000))
 print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
-Output :
-ex 1a output
+   
+
+Program:
 
 Result:
 Thus the study of Socket Programming Completed Successfully
